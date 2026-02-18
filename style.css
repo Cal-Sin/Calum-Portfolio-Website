@@ -1,0 +1,23 @@
+nav.navbar.navbar-home,
+nav.navbar.navbar-about,
+nav.navbar.navbar-portfolio,
+nav.navbar.navbar-contact {
+    background-color:  #2c3e50; 
+}
+
+nav.navbar.navbar-home .nav-link,
+nav.navbar.navbar-about .nav-link,
+nav.navbar.navbar-portfolio .nav-link,
+nav.navbar.navbar-contact .nav-link {
+    color: rgba(255,255,255,0.95);
+}
+nav.navbar .nav-link:hover {
+    color: #ffd700; 
+}
+nav.navbar .nav-link.active {
+    color: #ffffff;
+    font-weight: 700;
+}
+nav.navbar {
+    padding: 0.5rem 1rem;
+}
