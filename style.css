@@ -37,7 +37,13 @@ html, body {
     padding: 0;
 }
 
-/* landing cards should be at least the size of about section elements */
 .card.clickable-card {
-    min-height: 300px;
+    min-height: 500px;
+    background-color: #2c3e50;
+}
+
+h2.card-title {
+    color: #ecf0f1;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
