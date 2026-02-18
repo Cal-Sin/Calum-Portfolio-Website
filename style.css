@@ -21,3 +21,23 @@ nav.navbar .nav-link.active {
 nav.navbar {
     padding: 0.5rem 1rem;
 }
+
+.clickable-card {
+    transition: background-color 0.3s, transform 0.2s;
+}
+.clickable-card:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* landing cards should be at least the size of about section elements */
+.card.clickable-card {
+    min-height: 300px;
+}
